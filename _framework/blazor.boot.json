@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "E-SignApp",
   "resources": {
-    "hash": "sha256-dROBCmqmHr06bIcZzfOBcNS4Hi+AXsBycYUucOlC6t4=",
+    "hash": "sha256-hg7dwwvGjtqswza6tz4HztUCStXnfqwYqdbASSE3lBQ=",
     "fingerprinting": {
-      "E-SignApp.40jq91neqw.wasm": "E-SignApp.wasm",
+      "E-SignApp.da5pmqbk1k.wasm": "E-SignApp.wasm",
       "HarfBuzzSharp.8usjauxtjc.wasm": "HarfBuzzSharp.wasm",
       "Microsoft.AspNetCore.Components.Forms.3mq6ch13qm.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.lkvh3vf4om.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -135,7 +135,7 @@
       "System.Runtime.InteropServices.JavaScript.ortnca79qo.wasm": "sha256-jGXd3r0kryiqPMj+xaFukTCHB66GX++iH+WoWV2R308="
     },
     "assembly": {
-      "E-SignApp.40jq91neqw.wasm": "sha256-TOBfFz6I25T0gLCNP5FbwLDKL3QTbyuh8g+Pnjj3z3k=",
+      "E-SignApp.da5pmqbk1k.wasm": "sha256-++ohV6dX03+NV2gqMSdfjQKsjZwyvH05Q8dHPWjVOoE=",
       "HarfBuzzSharp.8usjauxtjc.wasm": "sha256-wOp+n1GlNXxlsws4K1bneOk+jymWrrw4GjEwH7LO87Q=",
       "Microsoft.AspNetCore.Components.Forms.3mq6ch13qm.wasm": "sha256-xfNmM6glcg2i8WWMMnrw0sOCB02c6ipSji6D0auqg9Q=",
       "Microsoft.AspNetCore.Components.lkvh3vf4om.wasm": "sha256-FWnumpuHxmFM97E825xxfzAFwUl9Drh/uz/vabGl0oI=",

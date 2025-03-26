@@ -50,11 +50,12 @@ function createCloneElement(buttonId, startX, startY) {
     clone.style.position = "absolute"; // Ensuring absolute positioning
 
     let fieldSizes = {
-        default: { width: 200, height: 24 },
+        default: { width: 135, height: 24 },
         signature: { height: 66 },
         button: { height: 40 },
         checkbox: { width: 20, height: 20 },
         radio: { width: 20, height: 20, borderRadius: "50%" },
+        dropdown: { width: 200, height: 24 },
         listbox: { height: 66 }
     };
 
@@ -64,6 +65,7 @@ function createCloneElement(buttonId, startX, startY) {
     else if (buttonId.includes("checkbox")) size = fieldSizes.checkbox;
     else if (buttonId.includes("radio")) size = fieldSizes.radio;
     else if (buttonId.includes("listbox")) size = fieldSizes.listbox;
+    else if (buttonId.includes("dropdown")) size = fieldSizes.dropdown;
 
     clone.style.width = (size.width || 200) * zoomFactor + "px";
     clone.style.height = (size.height || 24) * zoomFactor + "px";
